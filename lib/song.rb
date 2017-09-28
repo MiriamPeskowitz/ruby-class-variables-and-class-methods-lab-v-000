@@ -10,7 +10,7 @@ class Song
     @artist = artist
     @genre = genre
     @@artists << artist
-    @@genre << genre
+    @@genres << genre
     @@count += 1
     #why here is it @@genre << genre, not @@genre << @genre? string itself?
   end
