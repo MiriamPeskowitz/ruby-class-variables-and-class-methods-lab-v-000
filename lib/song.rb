@@ -29,7 +29,7 @@ class Song
 
   def self.genre_count # create a hash 
     genre_count = {}
-#if you have an array, those elements become the keys for the hash's key-value pairs. 
+#if you have an array, those elements become the keys for the hash's key-value pairs.
     @@genres.each do |genre|
       genre_count[genre]
         if genre_count[genre] == nil
@@ -54,4 +54,5 @@ class Song
       end
       artist_count
   end
+  binding.pry
 end
