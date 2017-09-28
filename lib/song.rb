@@ -27,7 +27,7 @@ class Song
     @@genres.uniq
   end
 
-  def self.genre_count # create a hash 
+  def self.genre_count # create a hash bUT How come you couldn't just count the elements in the array? 
     genre_count = {}
 #if you have an array, those elements become the keys for the hash's key-value pairs.
     @@genres.each do |genre|
